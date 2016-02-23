@@ -99,28 +99,28 @@ public class CardMaker{
 	public class ActionEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Action template.jpg");
+			gui.getCard("Action.jpg");
 		}
 	}
 
 	public class MandatoryEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Mandatory template.jpg");
+			gui.getCard("Mandatory.jpg");
 		}
 	}
 
 	public class StatusEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Status template.jpg");
+			gui.getCard("Status.jpg");
 		}
 	}
 
 	public class InstantEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Instant template.jpg");
+			gui.getCard("Instant.jpg");
 		}
 	}
 

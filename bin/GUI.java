@@ -13,8 +13,7 @@ public class GUI extends JFrame{
 	public static final int WIDTH = 400;
 	public static final int HEIGHT = 600;
 
-	private static final String IMAGE = System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Status template.jpg";
-
+	private static final String IMAGE = "Status.jpg"; 
 	private ImagePanel card;
 	private ImagePanel cardImage = null;
 
@@ -27,6 +26,7 @@ public class GUI extends JFrame{
 		super("4chan card maker");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(WIDTH, HEIGHT);
+		System.out.println(IMAGE);
 		createLayout();
 	}
 

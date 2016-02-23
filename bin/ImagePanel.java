@@ -6,6 +6,8 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.*;
+import java.io.InputStream;
 
 public class ImagePanel extends JPanel{
 
@@ -13,7 +15,10 @@ public class ImagePanel extends JPanel{
 
 	ImagePanel(String fileName){
 		try{
-			image = ImageIO.read(new File(fileName));
+			ClassLoader classLoader = getClass().getClassLoader();
+			System.out.println(classLoader.getResource("Images" + File.separator +  fileName));
+			InputStream file = classLoader.getResourceAsStream("Images" + File.separator + fileName);
+			image = ImageIO.read(file);
 		} catch(IOException ex){
 			ex.printStackTrace();
 			System.out.println("IO error");

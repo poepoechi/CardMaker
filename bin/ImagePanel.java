@@ -16,7 +16,7 @@ public class ImagePanel extends JPanel{
 	ImagePanel(String fileName){
 		try{
 			//System.out.println(ImagePanel.class.getResource("Images" + File.separator +  fileName));
-			InputStream file = this.getClass().getResourceAsStream(File.separator + "Images" + File.separator + fileName);
+			InputStream file = this.getClass().getClassLoader().getResourceAsStream("Images" + File.separator + fileName);
 			image = ImageIO.read(file);
 		} catch(IOException ex){
 			ex.printStackTrace();

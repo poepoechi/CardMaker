@@ -1,4 +1,4 @@
-package CardMaker;
+package bin;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,7 +13,7 @@ public class GUI extends JFrame{
 	public static final int WIDTH = 400;
 	public static final int HEIGHT = 600;
 
-	private static final String IMAGE = System.getProperty("user.dir") + File.separator + "CardMaker" + File.separator + "Images" + File.separator + "Status template.jpg";
+	private static final String IMAGE = System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Status template.jpg";
 
 	private ImagePanel card;
 	private ImagePanel cardImage = null;

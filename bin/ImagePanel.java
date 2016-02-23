@@ -1,4 +1,4 @@
-package CardMaker;
+package bin;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

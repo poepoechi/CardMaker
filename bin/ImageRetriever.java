@@ -1,4 +1,4 @@
-package CardMaker;
+package bin;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class ImageRetriever extends JPanel{
-	
+
 	private static JFileChooser fileChooser;
 	private static BufferedImage image;
 

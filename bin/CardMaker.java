@@ -1,4 +1,4 @@
-package CardMaker;
+package bin;
 
 import javax.swing.*;
 import java.awt.*;
@@ -99,28 +99,28 @@ public class CardMaker{
 	public class ActionEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "CardMaker" + File.separator + "Images" + File.separator + "Action template.jpg");
+			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Action template.jpg");
 		}
 	}
 
 	public class MandatoryEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "CardMaker" + File.separator + "Images" + File.separator + "Mandatory template.jpg");
+			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Mandatory template.jpg");
 		}
 	}
 
 	public class StatusEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "CardMaker" + File.separator + "Images" + File.separator + "Status template.jpg");
+			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Status template.jpg");
 		}
 	}
 
 	public class InstantEar implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
-			gui.getCard(System.getProperty("user.dir") + File.separator + "CardMaker" + File.separator + "Images" + File.separator + "Instant template.jpg");
+			gui.getCard(System.getProperty("user.dir") + File.separator + "bin" + File.separator + "Images" + File.separator + "Instant template.jpg");
 		}
 	}
 

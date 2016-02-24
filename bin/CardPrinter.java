@@ -36,10 +36,8 @@ public class CardPrinter{
     for(int i=0; i<text.length(); i+=35){
       if(i+35 > text.length()){
         card.drawString(text.substring(i, text.length()), 17, textLocation);
-        System.out.println("if test");
       }else{
         card.drawString(text.substring(i, i+35), 17, textLocation);
-        System.out.println("else test");
       }
       textLocation += 13;
     }

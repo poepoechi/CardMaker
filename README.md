@@ -1,5 +1,8 @@
 # CardMaker
 
+# V1.1 Changelog:
+  - Images automatically rescale to card size. It works but it is not perfect.
+
 Rough 1.0 version of my cardmaker for a drinking game
 
 this early version is usable but has some oddities that should be kept in mind:
